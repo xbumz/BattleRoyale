@@ -157,7 +157,7 @@ class Playing {
 		$player->getInventory()->setItem(1, Item::get(Item::COMPASS, 0, 1)->setCustomName("Centro"));
 		$player->getInventory()->setItem(2, Item::get(Item::COMPASS, 1, 1)->setCustomName("Buscador de AirDrops"));
 		$player->getInventory()->setItem(3, Item::get(Item::STONE_AXE, 0, 1)->setCustomName("Acha de piedra"));
-		$player->getInventory()->setItem(4, Item::get(Item::STONE_PICKAXE, 0, 1)->setCustomName("Pico de pidra"));
+		$player->getInventory()->setItem(4, Item::get(Item::STONE_PICKAXE, 0, 1)->setCustomName("Pico de piedra"));
 		$player->getInventory()->setItem(5, Item::get(Item::FEATHER, 0, 6)->setCustomName("Launcher"));
 		$player->getInventory()->sendContents($player);
 	}
