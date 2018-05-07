@@ -93,7 +93,7 @@ class Utils {
 			return;
 		}
 		if(!is_file($directory.$data["level"].".zip")){
-			GameManager::getInstance()->getLogger()->warning(TextFormat::RED."Falta el mapa para la arena: ".$data);
+			GameManager::getInstance()->getLogger()->warning(TextFormat::RED."Falta el mapa para la arena: ".$arena);
 				return;
 		}
 		GameManager::getInstance()->arenas[$arena] = new Arena($data, $arena);
