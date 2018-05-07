@@ -1,0 +1,7 @@
+name: BattleRoyale
+version: 1.0
+api: 3.0.0
+author: Becraft Gameplay
+website: https://github.com/BEcraft
+description: Minijuego para PocketMine (Minecraft Pocket Edition v1.1.0.55)
+main: BattleRoyale\GameManager
